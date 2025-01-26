@@ -181,7 +181,7 @@
                 @csrf
                 <input type="email" name="email" placeholder="Enter your email" required 
                        class="flex-grow rounded-lg border p-2">
-                <button type="submit" class="bg-red-700 text-white px-4 py-2 rounded-lg">Subscribe</button>
+                <button type="submit" id="subscribe-button" class="bg-red-700 text-white px-4 py-2 rounded-lg transition-transform duration-300 hover:bg-red-800 hover:scale-105 focus:bg-red-900 active:bg-red-900">Kirim EDM Template</button>
             </form>
         </div>
     </div>
