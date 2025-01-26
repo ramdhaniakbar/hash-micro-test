@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.parisienne-regular {
+  font-family: "Parisienne", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.charm-regular {
+  font-family: "Charm", serif;
+  font-weight: 400;
+  font-style: normal;
+}

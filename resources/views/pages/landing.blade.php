@@ -117,9 +117,21 @@
                         <img src="{{ asset('assets/image/bg-img-1.jpg') }}" class="w-full h-full object-cover"
                             alt="Image Background 1">
                         <div class="absolute inset-0">
-                            <div class="absolute bottom-10 left-0 right-0">
-                                <div class="bg-black p-6 mx-10">
-                                    <h1 class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+                            <div class="absolute w-3/4 bottom-10 left-0 right-0 mx-auto">
+                                <div class="border-4 border-black p-2">
+                                    <div class="bg-black flex flex-col justify-center items-center gap-2 p-6">
+                                        <div class="flex items-center">
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <h2 class="text-white parisienne-regular mx-2">Recipe / Stories</h2>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                        </div>
+                                        <h1 class="text-white text-lg font-semibold uppercase">Autumn Chestnut Rice</h1>
+                                        <span class="text-slate-400 text-sm charm-regular">August 7, 2024</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -127,80 +139,184 @@
                     <div class="w-full relative">
                         <img src="{{ asset('assets/image/bg-img-2.jpg') }}" class="w-full h-full object-cover"
                             alt="Image Background 2">
-                        <div class="absolute inset-0 bg-gray-600 opacity-50">
-                            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                                <h1 class="text-white">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                </h1>
+                        <div class="absolute inset-0">
+                            <div class="absolute w-3/4 bottom-10 left-0 right-0 mx-auto">
+                                <div class="border-4 border-black p-2">
+                                    <div class="bg-black flex flex-col justify-center items-center gap-2 p-6">
+                                        <div class="flex items-center">
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <h2 class="text-white parisienne-regular mx-2">Recipe / Stories</h2>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                        </div>
+                                        <h1 class="text-white text-lg font-semibold uppercase">Autumn Chestnut Rice</h1>
+                                        <span class="text-slate-400 text-sm charm-regular">August 7, 2024</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="w-full relative">
                         <img src="{{ asset('assets/image/bg-img-3.jpg') }}" class="w-full h-full object-cover"
                             alt="Image Background 3">
-                        <div class="absolute inset-0 bg-gray-600 opacity-50">
-                            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                                <h1 class="text-white">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-                                </h1>
+                        <div class="absolute inset-0">
+                            <div class="absolute w-3/4 bottom-10 left-0 right-0 mx-auto">
+                                <div class="border-4 border-black p-2">
+                                    <div class="bg-black flex flex-col justify-center items-center gap-2 p-6">
+                                        <div class="flex items-center">
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <h2 class="text-white parisienne-regular mx-2">Recipe / Stories</h2>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                        </div>
+                                        <h1 class="text-white text-lg font-semibold uppercase">Autumn Chestnut Rice</h1>
+                                        <span class="text-slate-400 text-sm charm-regular">August 7, 2024</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="w-full relative">
                         <img src="{{ asset('assets/image/bg-img-4.jpg') }}" class="w-full h-full object-cover"
                             alt="Image Background 4">
-                        <div class="absolute inset-0 bg-gray-600 opacity-50">
-                            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                                <h1 class="text-white">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-                                </h1>
+                        <div class="absolute inset-0">
+                            <div class="absolute w-3/4 bottom-10 left-0 right-0 mx-auto">
+                                <div class="border-4 border-black p-2">
+                                    <div class="bg-black flex flex-col justify-center items-center gap-2 p-6">
+                                        <div class="flex items-center">
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <h2 class="text-white parisienne-regular mx-2">Recipe / Stories</h2>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                        </div>
+                                        <h1 class="text-white text-lg font-semibold uppercase">Autumn Chestnut Rice</h1>
+                                        <span class="text-slate-400 text-sm charm-regular">August 7, 2024</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="w-full relative">
                         <img src="{{ asset('assets/image/bg-img-5.jpg') }}" class="w-full h-full object-cover"
                             alt="Image Background 5">
-                        <div class="absolute inset-0 bg-gray-600 opacity-50">
-                            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                                <h1 class="text-white">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-                                </h1>
+                        <div class="absolute inset-0">
+                            <div class="absolute w-3/4 bottom-10 left-0 right-0 mx-auto">
+                                <div class="border-4 border-black p-2">
+                                    <div class="bg-black flex flex-col justify-center items-center gap-2 p-6">
+                                        <div class="flex items-center">
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <h2 class="text-white parisienne-regular mx-2">Recipe / Stories</h2>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                        </div>
+                                        <h1 class="text-white text-lg font-semibold uppercase">Autumn Chestnut Rice</h1>
+                                        <span class="text-slate-400 text-sm charm-regular">August 7, 2024</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="w-full relative">
                         <img src="{{ asset('assets/image/bg-img-6.jpg') }}" class="w-full h-full object-cover"
                             alt="Image Background 6">
-                        <div class="absolute inset-0 bg-gray-600 opacity-50">
-                            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                                <h1 class="text-white">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-                                </h1>
+                        <div class="absolute inset-0">
+                            <div class="absolute w-3/4 bottom-10 left-0 right-0 mx-auto">
+                                <div class="border-4 border-black p-2">
+                                    <div class="bg-black flex flex-col justify-center items-center gap-2 p-6">
+                                        <div class="flex items-center">
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <h2 class="text-white parisienne-regular mx-2">Recipe / Stories</h2>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                        </div>
+                                        <h1 class="text-white text-lg font-semibold uppercase">Autumn Chestnut Rice</h1>
+                                        <span class="text-slate-400 text-sm charm-regular">August 7, 2024</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="w-full relative">
                         <img src="{{ asset('assets/image/bg-img-7.jpg') }}" class="w-full h-full object-cover"
                             alt="Image Background 7">
-                        <div class="absolute inset-0 bg-gray-600 opacity-50">
-                            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                                <h1 class="text-white">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-                                </h1>
+                        <div class="absolute inset-0">
+                            <div class="absolute w-3/4 bottom-10 left-0 right-0 mx-auto">
+                                <div class="border-4 border-black p-2">
+                                    <div class="bg-black flex flex-col justify-center items-center gap-2 p-6">
+                                        <div class="flex items-center">
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <h2 class="text-white parisienne-regular mx-2">Recipe / Stories</h2>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                        </div>
+                                        <h1 class="text-white text-lg font-semibold uppercase">Autumn Chestnut Rice</h1>
+                                        <span class="text-slate-400 text-sm charm-regular">August 7, 2024</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="w-full relative">
                         <img src="{{ asset('assets/image/bg-img-8.jpg') }}" class="w-full h-full object-cover"
                             alt="Image Background 8">
-                        <div class="absolute inset-0 bg-gray-600 opacity-50">
-                            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                                <h1 class="text-white">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-                                </h1>
+                        <div class="absolute inset-0">
+                            <div class="absolute w-3/4 bottom-10 left-0 right-0 mx-auto">
+                                <div class="border-4 border-black p-2">
+                                    <div class="bg-black flex flex-col justify-center items-center gap-2 p-6">
+                                        <div class="flex items-center">
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <h2 class="text-white parisienne-regular mx-2">Recipe / Stories</h2>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                        </div>
+                                        <h1 class="text-white text-lg font-semibold uppercase">Autumn Chestnut Rice</h1>
+                                        <span class="text-slate-400 text-sm charm-regular">August 7, 2024</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="w-full relative">
                         <img src="{{ asset('assets/image/bg-img-9.jpg') }}" class="w-full h-full object-cover"
                             alt="Image Background 9">
-                        <div class="absolute inset-0 bg-gray-600 opacity-50">
-                            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                                <h1 class="text-white">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-                                </h1>
+                        <div class="absolute inset-0">
+                            <div class="absolute w-3/4 bottom-10 left-0 right-0 mx-auto">
+                                <div class="border-4 border-black p-2">
+                                    <div class="bg-black flex flex-col justify-center items-center gap-2 p-6">
+                                        <div class="flex items-center">
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <h2 class="text-white parisienne-regular mx-2">Recipe / Stories</h2>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                            <i class="fa-duotone fa-regular fa-star text-xs text-white"></i>
+                                        </div>
+                                        <h1 class="text-white text-lg font-semibold uppercase">Autumn Chestnut Rice</h1>
+                                        <span class="text-slate-400 text-sm charm-regular">August 7, 2024</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
