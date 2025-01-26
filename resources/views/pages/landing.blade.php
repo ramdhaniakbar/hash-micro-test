@@ -177,7 +177,8 @@
             <p class="text-base">Disini untuk Front End Web Developer Test 2. Masukkan email anda untuk melihat hasil dari EDM template
                 untuk HashMicro ERP System. Silahkan masukkan email anda untuk melihat
                 tampilannya.</p>
-            <form action="#" method="POST" class="flex flex-wrap gap-4">
+            <form action="{{ route('email.send-edm-email') }}" method="POST" class="flex flex-wrap gap-4">
+                @csrf
                 <input type="email" name="email" placeholder="Enter your email" required 
                        class="flex-grow rounded-lg border p-2">
                 <button type="submit" class="bg-red-700 text-white px-4 py-2 rounded-lg">Subscribe</button>
