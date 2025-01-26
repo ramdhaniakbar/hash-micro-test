@@ -8,3 +8,4 @@ Route::get('/', function () {
 });
 
 Route::get('/', [LandingController::class, 'index'])->name('landing.index');
+Route::post('/update-dish-title', [LandingController::class, 'update_dish_title'])->name('landing.update-dish-title');
