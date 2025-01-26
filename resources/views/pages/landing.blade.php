@@ -2,6 +2,21 @@
 
 @section('title', 'Landing Page')
 @section('content')
+    <style>
+        #navbar {
+            position: relative;
+            width: 100%;
+            top: 0;
+            z-index: 50;
+            transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, box-shadow 0.3s ease;
+        }
+
+        #navbar.fixed {
+            position: fixed;
+            top: 0;
+        }
+    </style>
+
     <div>
         <div class="w-full h-[420px] relative">
             <img src="{{ asset('assets/image/background-image.jpg') }}" class="w-full h-full object-cover"
@@ -94,9 +109,141 @@
                 </li>
             </ul>
         </div>
-        <div class="w-full relative" style="height: 120vh;">
-            <img src="{{ asset('assets/image/background.svg') }}"
-                class="absolute inset-0 w-full h-full object-cover opacity-50" alt="Background Image">
+        <div class="w-full bg-cover bg-center relative"
+            style="height: fit-content; background-image: url('{{ asset('assets/image/background.svg') }}');">
+            <div id="content" class="py-8">
+                <div class="bg-white p-6 grid grid-cols-3 gap-5">
+                    <div class="w-full relative">
+                        <img src="{{ asset('assets/image/bg-img-1.jpg') }}" class="w-full h-full object-cover"
+                            alt="Image Background 1">
+                        <div class="absolute inset-0">
+                            <div class="absolute bottom-10 left-0 right-0">
+                                <div class="bg-black p-6 mx-10">
+                                    <h1 class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full relative">
+                        <img src="{{ asset('assets/image/bg-img-2.jpg') }}" class="w-full h-full object-cover"
+                            alt="Image Background 2">
+                        <div class="absolute inset-0 bg-gray-600 opacity-50">
+                            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                                <h1 class="text-white">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full relative">
+                        <img src="{{ asset('assets/image/bg-img-3.jpg') }}" class="w-full h-full object-cover"
+                            alt="Image Background 3">
+                        <div class="absolute inset-0 bg-gray-600 opacity-50">
+                            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                                <h1 class="text-white">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full relative">
+                        <img src="{{ asset('assets/image/bg-img-4.jpg') }}" class="w-full h-full object-cover"
+                            alt="Image Background 4">
+                        <div class="absolute inset-0 bg-gray-600 opacity-50">
+                            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                                <h1 class="text-white">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full relative">
+                        <img src="{{ asset('assets/image/bg-img-5.jpg') }}" class="w-full h-full object-cover"
+                            alt="Image Background 5">
+                        <div class="absolute inset-0 bg-gray-600 opacity-50">
+                            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                                <h1 class="text-white">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full relative">
+                        <img src="{{ asset('assets/image/bg-img-6.jpg') }}" class="w-full h-full object-cover"
+                            alt="Image Background 6">
+                        <div class="absolute inset-0 bg-gray-600 opacity-50">
+                            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                                <h1 class="text-white">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full relative">
+                        <img src="{{ asset('assets/image/bg-img-7.jpg') }}" class="w-full h-full object-cover"
+                            alt="Image Background 7">
+                        <div class="absolute inset-0 bg-gray-600 opacity-50">
+                            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                                <h1 class="text-white">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full relative">
+                        <img src="{{ asset('assets/image/bg-img-8.jpg') }}" class="w-full h-full object-cover"
+                            alt="Image Background 8">
+                        <div class="absolute inset-0 bg-gray-600 opacity-50">
+                            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                                <h1 class="text-white">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full relative">
+                        <img src="{{ asset('assets/image/bg-img-9.jpg') }}" class="w-full h-full object-cover"
+                            alt="Image Background 9">
+                        <div class="absolute inset-0 bg-gray-600 opacity-50">
+                            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                                <h1 class="text-white">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-full flex justify-center bg-white py-16 px-12 gap-48">
+            <div class="flex flex-col gap-8">
+                <img src="{{ asset('assets/image/hashmicro-logo.png') }}" class="w-64" alt="Hash Micro Logo">
+                <div class="flex flex-col gap-4">
+                    <div class="flex gap-4">
+                        <i class="fa-solid fa-location-dot text-red-700 text-2xl"></i>
+                        <p>Neo SOHO Podomoro City
+                            Unit 37.09 - 37.10
+                            Jalan Letjen S. Parman Kav. 28, RT.3/RW.5,
+                            Tanjung Duren Selatan, Grogol Petamburan,
+                            Jakarta Barat, 11470</p>
+                    </div>
+                    <div class="flex gap-4">
+                        <i class="fa-solid fa-phone text-red-700 text-xl"></i>
+                        <p>+62 878 8800 0015</p>
+                    </div>
+                    <div class="flex gap-4">
+                        <i class="fa-solid fa-envelope text-red-700 text-xl"></i>
+                        <p>hello@hashmicro.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col gap-10 px-40">
+                <p>Penyedia solusi ERP dengan rangkaian software terlengkap untuk berbagai jenis industri, yang dapat disesuaikan dengan kebutuhan setiap bisnis.</p>
+                <div class="flex flex-col gap-4">
+                    <p>Disini untuk Front End Web Developer Test 2. Masukkan email anda untuk melihat hasil dari EDM template
+                        untuk HashMicro ERP System. Silahkan masukkan email anda untuk melihat
+                        tampilannya.</p>
+    
+                    <div class="w-full">
+                        <form action="#" method="POST" class="">
+                            <input type="email" name="email" placeholder="Enter your email" required class="w-3/4 rounded-lg border p-2">
+                            <button type="submit" class="w-2/12 bg-red-700 text-white px-4 py-2 rounded-lg">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 @endsection
@@ -111,11 +258,15 @@
                 var scrollPosition = $(window).scrollTop();
 
                 if (scrollPosition > originalOffset) {
-                    navbar.addClass('fixed top-0 z-50');
-                    navbar.css('width', navbar.parent().width());
+                    if (!navbar.hasClass('fixed')) {
+                        navbar.addClass('fixed');
+                        $('#content').addClass('mt-20');
+                    }
                 } else {
-                    navbar.removeClass('fixed top-0 z-50');
-                    navbar.css('width', '');
+                    if (navbar.hasClass('fixed')) {
+                        navbar.removeClass('fixed');
+                        $('#content').removeClass('mt-20');
+                    }
                 }
             });
         });
